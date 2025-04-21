@@ -76,3 +76,6 @@ $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/porsche/porsche-vendor.mk)
+
+# Inherit from the Linux-On-Android projects.
+$(call inherit-product, vendor/lindroid/lindroid.mk)
